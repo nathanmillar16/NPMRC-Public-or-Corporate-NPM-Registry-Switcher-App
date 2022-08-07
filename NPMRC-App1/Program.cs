@@ -71,14 +71,14 @@ if (!isEdited)
     // Get user input for type of development
     Console.ForegroundColor = ConsoleColor.Magenta;
     Console.WriteLine("--------------------------------");
-    Console.WriteLine("Are you developing for Next PLC?");
+    Console.WriteLine("Are you developing for personal use or corporate use (npmjs vs corporate artifacts)?");
     Console.ForegroundColor = ConsoleColor.DarkMagenta;
     Console.WriteLine(yesNoStatement);
 
     string devTypeAnswer = Console.ReadLine() ?? String.Empty;
     isPersonalDev = devTypeAnswer.Contains("n") || devTypeAnswer.Contains("N");
 
-    // Default to Next PLC Development if no input is given. E.g. Pressing enter to skip the question
+    // Default to Corporate Development if no input is given. E.g. Pressing enter to skip the question
     if (String.IsNullOrEmpty(devTypeAnswer) || String.IsNullOrWhiteSpace(devTypeAnswer))
     {
         isPersonalDev = false;
@@ -87,7 +87,7 @@ if (!isEdited)
     try
     {
         Console.ForegroundColor = ConsoleColor.Black;
-        Console.WriteLine("--- " + (isPersonalDev ? "DeActivating" : "Activating") + " Next PLC Development ---");
+        Console.WriteLine("--- " + (isPersonalDev ? "DeActivating" : "Activating") + " Corporate Development ---");
         Console.WriteLine("--------------------------------");
         Console.WriteLine("--- Reading files ---");
 
