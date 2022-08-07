@@ -2,8 +2,17 @@
 
 ## Description
 
-This console application allows the user to rename their `.npmrc` file. The directory is configurable and stored in the `NPMRC-App.dll.config`, when the console application is published to a directory.
-[Click here to download](/nathanmillar16/NPMRC-Public-or-Corporate-NPM-Registry-Switcher-App#downloads)
+This console application allows the user to rename their `.npmrc` file programatically. This should save the user from having to navigate to the directory and perform numerous mouse click actions.
+The directory for the npmrc file is configurable and stored in the `NPMRC-App.dll.config` and editable through the console app./.
+
+## Downloads
+
+| OS-ARCH                                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------------------- |
+| [LIN-X64](//github.com/nathanmillar16/NPMRC-Public-or-Corporate-NPM-Registry-Switcher-App/blob/master/Downloads/LIN-X64.zip) |
+| [OSX-X64](//github.com/nathanmillar16/NPMRC-Public-or-Corporate-NPM-Registry-Switcher-App/blob/master/Downloads/OSX-X64.zip) |
+| [WIN-X86](//github.com/nathanmillar16/NPMRC-Public-or-Corporate-NPM-Registry-Switcher-App/blob/master/Downloads/WIN-X86.zip) |
+| [WIN-X64](//github.com/nathanmillar16/NPMRC-Public-or-Corporate-NPM-Registry-Switcher-App/blob/master/Downloads/WIN-X64.zip) |
 
 ## Publishing
 
@@ -22,12 +31,3 @@ Once published, the console app acts as a wizard.
 - If the latter is chosen, the existing `.npmrc` will be renamed to `.notInUseNpmrcName`
 
 \*\* The console application assumes the user is wanting to switch from using `.npmrc`/developing corporately in the first instance the application runs after setting file directory configs.
-
-## Downloads
-
-| OS-ARCH                                                                                                                            |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [LIN-X64](https://github.com/nathanmillar16/NPMRC-Public-or-Corporate-NPM-Registry-Switcher-App/blob/master/Downloads/LIN-X64.zip) |
-| [OSX-X64](https://github.com/nathanmillar16/NPMRC-Public-or-Corporate-NPM-Registry-Switcher-App/blob/master/Downloads/OSX-X64.zip) |
-| [WIN-X86](https://github.com/nathanmillar16/NPMRC-Public-or-Corporate-NPM-Registry-Switcher-App/blob/master/Downloads/WIN-X86.zip) |
-| [WIN-X64](https://github.com/nathanmillar16/NPMRC-Public-or-Corporate-NPM-Registry-Switcher-App/blob/master/Downloads/WIN-X64.zip) |
